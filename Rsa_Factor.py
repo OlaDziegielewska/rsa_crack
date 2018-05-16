@@ -1,3 +1,6 @@
+#how to use this driver
+# Call Crack method with public elements of RSA key to break it.
+# Crack method returning CRsa_Base class
 
 
 import random
@@ -44,12 +47,3 @@ class CRsa_Factor(object):
 
 
 
-
-
-
-mRsa = CRsa_Factor();
-mBase = mRsa.Crack(10,89*97);
-
-print 'mBase: ',mBase.m_iE,' ',mBase.m_iN
-print 'mBase q: ',mBase.m_iQ
-print 'mBase p: ',mBase.m_iP
