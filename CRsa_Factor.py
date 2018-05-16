@@ -8,9 +8,8 @@ from CRsa_Base import CRsa_Base
 
 class CRsa_Factor(object):
 	def Test(self):
-		print 'Wywolana funkcja klasy'
+		pass
 	def Crack(self,e,n):
-		print 'Wywolana funkcja klasy',e,' ',n
 		
 		mBase = CRsa_Base();
 		mBase.m_iE = e;
