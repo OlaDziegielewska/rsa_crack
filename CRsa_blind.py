@@ -1,4 +1,8 @@
-class CRsa_blind(CRsa_Base):
+import random, math
+from CRsa_Base import CRsa_Base											
+
+
+class CRsa_blind(CRsa_Base):	
 	
 	
 	def rand_blind(self):
