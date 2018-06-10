@@ -1,3 +1,6 @@
+#how to use this driver
+# Call Crack method with public elements of RSA key to break it.
+# Crack method returning CRsa_Base class
 
 
 import random
